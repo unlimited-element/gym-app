@@ -1,10 +1,9 @@
-// require('dotenv').config()
-// console.log(process.env)
+
 
 export const exerciseOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': process.env.X-RapidAPI-Key,
+    'X-RapidAPI-Key': 'd18672eff0msh8067bcc268e390ap1461a1jsnc9d9a83e5102',
     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
   },
 };
@@ -13,7 +12,7 @@ export const youtubeOptions = {
   method: 'GET',
   headers: {
     'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-    'X-RapidAPI-Key': process.env.X-RapidAPI-Key,
+    'X-RapidAPI-Key': 'd18672eff0msh8067bcc268e390ap1461a1jsnc9d9a83e5102',
   },
 };
 
